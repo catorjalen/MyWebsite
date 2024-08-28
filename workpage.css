@@ -1,0 +1,472 @@
+body {
+  background-color: #1F1C1F;
+  background-blend-mode: overlay;
+  background-image: url("reference/abstract.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.profile-area {
+  display: flex;
+  align-items: center;
+  margin-left: 30px
+}
+.profile-jalen {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.authorname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.name {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  color: white; 
+}
+.position {
+  font-size: 15px;
+  color: rgb(129, 119, 119);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+}
+
+/* This is for the center of the text ABOUT ME */
+
+.text-intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 58vh;
+  text-align: left;
+  margin-left: -200px;
+}
+.text-aboutme {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: rgb(247, 142, 56);
+  margin-bottom: -25px;
+  text-shadow: 1px 1px 50px rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+.first-para {
+  font-size: 48px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  text-shadow: 1px 1px 500px rgb(247, 209, 247);
+  color:rgb(189, 193, 197);
+}
+.first-para2 {
+  font-weight: bold;
+}
+
+/* Other social media links */
+.link-insta {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: -0.5px;
+  border-radius: 50px;
+  border: 1px solid rgb(97, 97, 97);
+  background-color: transparent;
+  color: rgb(175, 175, 175);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.link-youtube {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: -0.5px;
+  border-radius: 50px;
+  border: 1px solid rgb(97, 97, 97);
+  background-color: transparent;
+  color: rgb(175, 175, 175);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+/* positioning it to the top right*/
+.link-insta-youtube-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 20px;
+} 
+
+/* ScrollBar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+  border-radius: 10px;
+}
+/* Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(104, 104, 104);
+}
+
+/* About Me */
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.photo-jalen {
+  width: 28%;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+.photo-jalen:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.greetings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.greeting {
+  font-size: 18px;
+  font-family: tahoma;
+  color: rgb(177, 177, 177);
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+.head-greeting {
+  font-size: 18px;
+  font-family: tahoma;
+  color: rgb(224, 224, 224);
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+/* Second Paragraph*/
+.second-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.twin-photo {
+  width: 28%;
+  height: 650px;
+  border-radius: 20px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.twin-photo:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.para-two-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.para-two {
+  font-size: 18px;
+  font-family: tahoma;
+  color: rgb(177, 177, 177);
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+.head-para-two {
+  font-size: 18px;
+  font-family: tahoma;
+  color: rgb(224, 224, 224);
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+.title-character-design {
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(247, 142, 56);
+  background-color: rgba(31, 30, 30, 0.5);
+  padding: 12px;
+  box-shadow: 0 0 5px rgb(126, 126, 126);
+}
+
+/* Organize One*/ 
+.charac-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.charac1 {
+  width: 28%;
+  height: auto;
+}
+.charac2 {
+  width: 28%;
+  height: auto;
+}
+.charac3 {
+  width: 28%;
+  height: auto;
+}
+
+/* Organize Two*/
+.charac-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.charac4 {
+  width: 28%;
+  height: auto;
+}
+.charac5 {
+  width: 28%;
+  height: auto;
+}
+.charac6 {
+  width: 28%;
+  height: auto;
+}
+
+/* Organize Three*/
+.charac-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.charac7 {
+  width: 28%;
+  height: auto;
+}
+.charac8 {
+  width: 28%;
+  height: auto;
+}
+.charac9 {
+  width: 28%;
+  height: auto;
+}
+
+/* Organize Four*/
+.charac-container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.charac10 {
+  width: 28%;
+  height: auto;
+}
+
+/* Character Model*/
+.charac-container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.charac11:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.charac11 {
+  width: 60%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* 3D Modeling Pictures */
+.title-3D-models {
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(247, 142, 56);
+  background-color: rgba(31, 30, 30, 0.5);
+  padding: 12px;
+  box-shadow: 0 0 5px rgb(126, 126, 126);
+  margin-top: 100px;
+}
+
+/* Organize 3D Models */
+.model-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.model-ghostbuster:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-glass:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-ghostbuster {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.model-glass {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Organize 3D Model*/
+.model-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.model-caf:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-classroom:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-caf {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.model-classroom {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Organize 3D Model */
+.model-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.model-chess:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-chess {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.model-dinnertable:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-dinnertable {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.model-container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.model-house:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
+.model-house {
+  width: 60%;
+  height: auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Video Area */
+.video-animation {
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(247, 142, 56);
+  background-color: rgba(31, 30, 30, 0.5);
+  padding: 12px;
+  box-shadow: 0 0 5px rgb(126, 126, 126);
+  margin-top: 100px;
+}
+.video-ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.video-jump {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.video-car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.video-hand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.video-backhoe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+video {
+  width: 80;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
