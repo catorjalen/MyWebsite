@@ -154,9 +154,11 @@ body {
   border-radius: 20px;
   margin-right: 35px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 .photo-jalen:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.1);
 }
 .greetings-container {
   display: flex;
@@ -191,9 +193,11 @@ body {
   border-radius: 20px;
   margin-left: 35px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 .twin-photo:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.1);
 }
 .para-two-container {
   display: flex;
@@ -234,14 +238,26 @@ body {
 .charac1 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac1:hover {
+  transform: scale(1.2);
 }
 .charac2 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac2:hover {
+  transform: scale(1.2);
 }
 .charac3 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac3:hover {
+  transform: scale(1.2);
 }
 
 /* Organize Two*/
@@ -254,14 +270,26 @@ body {
 .charac4 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac4:hover {
+  transform: scale(1.2);
 }
 .charac5 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac5:hover {
+  transform: scale(1.2);
 }
 .charac6 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac6:hover {
+  transform: scale(1.2);
 }
 
 /* Organize Three*/
@@ -274,14 +302,26 @@ body {
 .charac7 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac7:hover {
+  transform: scale(1.2);
 }
 .charac8 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac8:hover {
+  transform: scale(1.2);
 }
 .charac9 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac9:hover {
+  transform: scale(1.2);
 }
 
 /* Organize Four*/
@@ -294,6 +334,10 @@ body {
 .charac10 {
   width: 28%;
   height: auto;
+  transition: transform 0.5s ease;
+}
+.charac10:hover {
+  transform: scale(1.2);
 }
 
 /* Character Model*/
@@ -305,12 +349,14 @@ body {
 }
 .charac11:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .charac11 {
   width: 60%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 
 /* 3D Modeling Pictures */
@@ -335,22 +381,27 @@ body {
 }
 .model-ghostbuster:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-glass:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-ghostbuster {
   width: 40%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 .model-glass {
   width: 40%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
+
 
 /* Organize 3D Model*/
 .model-container2 {
@@ -362,22 +413,28 @@ body {
 }
 .model-caf:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-classroom:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-caf {
   width: 40%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
+
 .model-classroom {
   width: 40%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
+
 
 /* Organize 3D Model */
 .model-container3 {
@@ -389,22 +446,28 @@ body {
 }
 .model-chess:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-chess {
   width: 40%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
+
 .model-dinnertable:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-dinnertable {
   width: 40%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
+
 
 .model-container4 {
   display: flex;
@@ -414,13 +477,16 @@ body {
 }
 .model-house:hover {
   box-shadow: 0 0 10px rgb(167, 167, 167);
+  transform: scale(1.2);
 }
 .model-house {
   width: 60%;
   height: auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
+
 
 /* Video Area */
 .video-animation {
