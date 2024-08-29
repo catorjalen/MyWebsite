@@ -94,6 +94,9 @@ body {
   margin-right: 10px;
   cursor: pointer;
 }
+.link-insta:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+}
 
 .link-youtube {
   font-size: 14px;
@@ -108,6 +111,9 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   cursor: pointer;
+}
+.link-youtube:hover {
+  box-shadow: 0 0 10px rgb(167, 167, 167);
 }
 
 /* positioning it to the top right*/
