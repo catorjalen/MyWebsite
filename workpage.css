@@ -239,6 +239,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac1:hover {
   transform: scale(1.2);
@@ -247,6 +248,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac2:hover {
   transform: scale(1.2);
@@ -255,6 +257,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac3:hover {
   transform: scale(1.2);
@@ -271,6 +274,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac4:hover {
   transform: scale(1.2);
@@ -279,6 +283,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac5:hover {
   transform: scale(1.2);
@@ -287,6 +292,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac6:hover {
   transform: scale(1.2);
@@ -303,6 +309,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac7:hover {
   transform: scale(1.2);
@@ -311,6 +318,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac8:hover {
   transform: scale(1.2);
@@ -319,6 +327,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac9:hover {
   transform: scale(1.2);
@@ -335,6 +344,7 @@ body {
   width: 28%;
   height: auto;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .charac10:hover {
   transform: scale(1.2);
